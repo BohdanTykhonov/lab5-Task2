@@ -8,4 +8,4 @@ for i in range(7):
             arr[i][j] = 0
 
 for row in arr:
-    print(row)
+    print(' '.join(map(str, row)))
